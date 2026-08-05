@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+
+# Model files
+*.pt
+
+# Test outputs
+test.csv
+
+# Images folder
+images/
+
+# Temporary files
+*.jpg
+*.png
