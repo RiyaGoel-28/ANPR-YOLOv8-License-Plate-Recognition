@@ -1,24 +1,52 @@
-# automatic-number-plate-recognition-python-yolov8
+# 🚗 YOLOv8 Based Automatic Number Plate Recognition System
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=fyJB1t0o0ms">
-    <img width="600" src="https://utils-computervisiondeveloper.s3.amazonaws.com/thumbnails/with_play_button/anpr_yolo2.jpg" alt="Watch the video">
-    </br>Watch on YouTube: Automatic number plate recognition with Python, Yolov8 and EasyOCR !
-</a>
-</p>
+## 📌 Overview
 
-## data
+This project is an Automatic Number Plate Recognition (ANPR) system using YOLOv8 and EasyOCR.
 
-The video I used in this tutorial can be downloaded [here](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/).
+The system detects license plates from vehicle images, extracts the plate number using OCR, and displays the result through a Streamlit web application.
 
-## models
+## ✨ Features
 
-A Yolov8 pretrained model was used to detect vehicles.
+- YOLOv8 based license plate detection
+- EasyOCR based text recognition
+- Streamlit web interface
+- Image upload and prediction
+- License plate bounding box detection
 
-A licensed plate detector was used to detect license plates. The model was trained with Yolov8 using [this dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4) and following this [step by step tutorial on how to train an object detector with Yolov8 on your custom data](https://github.com/computervisioneng/train-yolov8-custom-dataset-step-by-step-guide). 
+## 🛠️ Technologies Used
 
-The trained model is available in my [Patreon](https://www.patreon.com/ComputerVisionEngineer).
+- Python
+- YOLOv8
+- EasyOCR
+- OpenCV
+- Streamlit
+- PyTorch
 
-## dependencies
+## ▶️ Run the Project
 
-The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort) as mentioned in the [video](https://youtu.be/fyJB1t0o0ms?t=1120).
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the application:
+
+```bash
+streamlit run app.py
+```
+
+## 📂 Main Files
+
+- app.py - Streamlit web interface
+- anpr.py - ANPR detection logic
+- main.py - Main processing script
+- plate_model/best.pt - YOLOv8 license plate model
+
+## 👩‍💻 Author
+
+Riya Goel
+
+GitHub:
+https://github.com/RiyaGoel-28
