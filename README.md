@@ -53,5 +53,8 @@ https://github.com/RiyaGoel-28
 
 ## Project Demo
 
-https://github.com/RiyaGoel-28/ANPR-YOLOv8-License-Plate-Recognition/releases/tag/v1.0
+https://github.com/user-attachments/assets/e208e8df-a982-4ecd-9488-8635119b5926
+
+
+
 
